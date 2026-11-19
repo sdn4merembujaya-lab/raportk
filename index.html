@@ -2642,14 +2642,14 @@ function buildIsiRaporHTML(s, paper){
       <tbody>${prestRows}</tbody>
     </table>
 
-    <div class="sec-bar">E. ABSENSI</div>
+    <div class="sec-bar" style="break-before:page;margin-top:0">E. ABSENSI</div>
     <table class="rapor-tbl" style="max-width:340px">
       <tr><td style="width:65%">Sakit</td><td>: ${ab.s} hari</td></tr>
       <tr><td>Izin</td><td>: ${ab.i} hari</td></tr>
       <tr><td>Tanpa Keterangan</td><td>: ${ab.a} hari</td></tr>
     </table>
 
-    <div class="sec-bar" style="break-before:page;margin-top:0">INFORMASI MENGENAI PERKEMBANGAN ANAK</div>
+    <div class="sec-bar">INFORMASI MENGENAI PERKEMBANGAN ANAK</div>
     <div class="info-box">${esc(s.pesan || "-")}</div>
 
     <div class="sec-bar">REFLEKSI ORANG TUA/WALI</div>

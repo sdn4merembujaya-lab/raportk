@@ -1,0 +1,11 @@
+# Sistem operasi
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Backup data sekolah (jangan diunggah ke publik)
+backup_rapor_*.json
+*.backup.json

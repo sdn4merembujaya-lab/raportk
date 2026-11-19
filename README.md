@@ -46,7 +46,11 @@ Kode harus huruf besar. Setelah itu, simpan, lalu commit dan push ulang ke GitHu
 
 ```
 .
-├── index.html   # Seluruh aplikasi (HTML, CSS, dan JavaScript)
+├── index.html    # Seluruh aplikasi (HTML, CSS, dan JavaScript)
+├── favicon.png   # Ikon tab browser
+├── apple-touch-icon.png  # Ikon layar utama HP
+├── logo.png      # Logo asli
+├── og-image.png  # Gambar pratinjau saat tautan dibagikan
 ├── README.md
 └── .gitignore
 ```

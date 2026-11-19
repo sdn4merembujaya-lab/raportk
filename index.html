@@ -2603,23 +2603,23 @@ function buildIsiRaporHTML(s, paper){
 
     <table class="id-grid">
       <tr>
-        <td style="width:19%">Nama Sekolah</td><td style="width:34%">: <b>${esc(sk.nama || "-")}</b></td>
-        <td style="width:17%">Kelas</td><td style="width:30%">: ${esc(s.kelas)} (${esc(kelInfo.usia)})</td>
+        <td style="width:1%;white-space:nowrap">Nama Sekolah</td><td style="width:33%">: <b>${esc(sk.nama || "-")}</b></td>
+        <td style="width:1%;white-space:nowrap">Kelas</td><td>: ${esc(s.kelas)} (${esc(kelInfo.usia)})</td>
       </tr>
       <tr>
-        <td>Nama Peserta Didik</td><td>: <b>${esc(s.nama)}</b></td>
-        <td>Fase</td><td>: Pondasi</td>
+        <td style="width:1%;white-space:nowrap">Nama Peserta Didik</td><td style="width:33%">: <b>${esc(s.nama)}</b></td>
+        <td style="width:1%;white-space:nowrap">Fase</td><td>: Pondasi</td>
       </tr>
       <tr>
-        <td>NIK</td><td>: ${esc(s.nik || "-")}</td>
-        <td>Tinggi Badan</td><td>: ${esc(s.tb || "0")} CM</td>
+        <td style="width:1%;white-space:nowrap">NIK</td><td style="width:33%">: ${esc(s.nik || "-")}</td>
+        <td style="width:1%;white-space:nowrap">Tinggi Badan</td><td>: ${esc(s.tb || "0")} CM</td>
       </tr>
       <tr>
-        <td>Tahun Ajaran</td><td>: ${esc(sk.tahun || "2026/2027")}</td>
-        <td>Berat Badan</td><td>: ${esc(s.bb || "0")} KG</td>
+        <td style="width:1%;white-space:nowrap">Tahun Ajaran</td><td style="width:33%">: ${esc(sk.tahun || "2026/2027")}</td>
+        <td style="width:1%;white-space:nowrap">Berat Badan</td><td>: ${esc(s.bb || "0")} KG</td>
       </tr>
       <tr>
-        <td>Semester</td><td>: ${esc(sk.sem || "I (Ganjil)")}</td>
+        <td style="width:1%;white-space:nowrap">Semester</td><td style="width:33%">: ${esc(sk.sem || "I (Ganjil)")}</td>
         <td></td><td></td>
       </tr>
     </table>
